@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb  7 00:30:58 2019
+Created on Sun Feb  11 08:30:58 2024
 
-@author: Voltas
+@author: M. Imdad
 """
 
 import pandas
@@ -109,10 +109,3 @@ print (sdc2)
 mc1 = multi.MultiComparison(sub3['S3BQ4'], sub3['S3BD5Q2E'])
 res1 = mc1.tukeyhsd()
 print(res1.summary())
-
-
-
-
-
-
-
